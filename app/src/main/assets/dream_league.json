@@ -1,0 +1,201 @@
+{
+  "dream_league": [
+    {
+      "title": "Team Liquid",
+      "image" : "https://liquipedia.net/commons/images/thumb/a/ae/Team_Liquid_2019.png/900px-Team_Liquid_2019.png",
+      "url": "http://www.delish.com/cooking/recipe-ideas/recipes/a11249/grilled-deviled-chickens-under-brick-mslo0510-recipe/",
+      "description": "Team Liquid is a professional team, founded in the Netherlands in 2000.",
+      "pos1": " miCKe\tMichael Vu",
+      "pos2": " qojqva\tMaximilian Bröcker",
+      "pos3": " Boxi\tSamuel Svahn",
+      "pos4": " Taiga\tTommy Le",
+      "pos5": " iNSaNiA\tAydin Sarkohi",
+      "coach": "No Coach"
+      },
+    {
+      "title": "Team Secret",
+      "image" : "https://liquipedia.net/commons/images/thumb/4/40/Team_Secret.png/900px-Team_Secret.png",
+      "url": "http://www.seriouseats.com/recipes/2011/06/stir-fried-rice-with-chinese-sausage-recipe.html",
+      "description": "Team Secret is a European professional Dota 2 team.",
+      "pos1": " MATUMBAMAN\tLasse Urpalainen",
+      "pos2": " Nisha\tMichał Jankowski",
+      "pos3": " zai\tLudwig Wåhlberg",
+      "pos4": " YapzOr\tYazied Jaradat",
+      "pos5": " Puppey\tClement Ivanov",
+      "coach": " Heen\tLee Seung Gon"
+    },
+    {
+      "title": "Alliance",
+      "image" : "https://liquipedia.net/commons/images/thumb/2/20/Alliance2016.png/900px-Alliance2016.png",
+      "url": "http://www.seriouseats.com/recipes/2011/06/stir-fried-rice-with-chinese-sausage-recipe.html",
+      "description": "Alliance is a gaming organisation founded by Team Razer and Alex Garfield in April 2013.",
+      "pos1": " Nikobaby\tNikolay Nikolov",
+      "pos2": " Limmp\tLinus Blomdin",
+      "pos3": " 33\tNeta Shapira",
+      "pos4": " Handsken\tSimon Haag",
+      "pos5": " Fata\tAdrian Trinks",
+      "coach": " Loda\tJonathan Emanuel Berg"
+    },
+
+    {
+      "title": "Invictus Gaming",
+      "image" : "https://liquipedia.net/commons/images/thumb/1/1f/Invictus_Gaming_logo.png/900px-Invictus_Gaming_logo.png",
+      "url": "https://liquipedia.net/dota2/Invictus_Gaming",
+      "description": "Invictus Gaming is the result of Wanda Enterprise director Wang Sicong acquiring Catastrophic Cruel Memory.",
+      "pos1": " flyfly\tJin Zhiyi",
+      "pos2": " Emo\tZhou Yi",
+      "pos3": " JT-\tThiay Jun Wen",
+      "pos4": " Kaka\tHu Liangzhi",
+      "pos5": " Oli\tChan Chon Kien",
+      "coach": " No Coach"
+    },
+
+    {
+      "title": "Vici Gaming",
+      "image" : "https://liquipedia.net/commons/images/thumb/e/eb/VICI_Gaming.png/900px-VICI_Gaming.png",
+      "url": "https://liquipedia.net/dota2/Vici_Gaming",
+      "description": "Vici Gaming was formed on the 21st of October, 2012.",
+      "pos1": " Eurus\tZhang Chengjun\t",
+      "pos2": " Ori\tZeng Jiaoyang\t",
+      "pos3": " Yang\tZhou Haiyang\t",
+      "pos4": " Pyw\tXiong Jiahan\t",
+      "pos5": " Dy\tDing Cong",
+      "coach": " rOtk\tBai Fan"
+    },
+
+    {
+      "title": "Team Aster",
+      "image" : "https://liquipedia.net/commons/images/thumb/9/94/Team_Aster_logo.png/900px-Team_Aster_logo.png",
+      "url": "https://liquipedia.net/dota2/Team_Aster",
+      "description": "Team Aster is a Chinese professional Dota 2 team created by Xu \"BurNIng\" Zhilei and \"XiaoFei\".",
+      "pos1": " Sccc\tSong Chun",
+      "pos2": " ChYuan\tKee Chyuan Ng\t",
+      "pos3": " Xxs\tLin Jing",
+      "pos4": " BoBoKa\tYe Zhibiao",
+      "pos5": " Fade\tPan Yi",
+      "coach": "No Coach"
+    },
+
+    {
+      "title": "Reality Rift",
+      "image" : "https://liquipedia.net/commons/images/e/ee/Reality_Rift_Sign.png",
+      "url": "https://liquipedia.net/dota2/Reality_Rift_(Singaporean_Team)",
+      "description": "Reality Rift is a Singaporean Dota 2 team, formed in June 2019.",
+      "pos1": " Drew\tAndrew Halim",
+      "pos2": " AlaCrity\tHiew Teck Yoong",
+      "pos3": " kYxY\tLee Kong Yang",
+      "pos4": " Hustla\tRavdan Narmandakh",
+      "pos5": " NutZ\tWong Jeng Yih",
+      "coach": " Mikadzan"
+    },
+
+    {
+      "title": "Fnatic",
+      "image" : "https://liquipedia.net/commons/images/thumb/d/db/Fnaticlogo.png/900px-Fnaticlogo.png",
+      "url": "https://liquipedia.net/dota2/Fnatic",
+      "description": "Fnatic is a professional gaming organization with registered offices in England, Australia and the Netherlands.",
+      "pos1": " 23savage\tNuengnara Teeramahanon",
+      "pos2": " Moon\tKam Boon Seng",
+      "pos3": " iceiceice\tDaryl Koh Pei Xiang",
+      "pos4": " DJ\tDjardel Mampusti",
+      "pos5": " Jabz\tAnucha Jirawong",
+      "coach": "SunBhie\tLee Jeong-jae"
+    },
+
+    {
+      "title": "TNC Predator",
+      "image" : "https://liquipedia.net/commons/images/a/a6/TNC_Predator_logo_201907.png",
+      "url": "https://liquipedia.net/dota2/TNC_Predator",
+      "description": "TNC Predator is the pro gaming team of Philippine net cafe chain TheNet.Com.",
+      "pos1": " Gabbi\tKim Villafuerte\t",
+      "pos2": " Armel\tArmel Paul Tabios\t",
+      "pos3": " kpii\tDamien Chok",
+      "pos4": " Tims\tTimothy Randrup",
+      "pos5": " March\tPark Tae-won",
+      "coach": "Febby\tKim Yong-min"
+    },
+
+    {
+      "title": "Virtus.pro",
+      "image" : "https://liquipedia.net/commons/images/thumb/5/5d/Virtus.pro_2019.png/900px-Virtus.pro_2019.png",
+      "url": "https://liquipedia.net/dota2/Virtus.pro",
+      "description": "Virtus.pro is a professional gaming organization based in Russia.",
+      "pos1": " epileptick1d\tEgor Grigorenko",
+      "pos2": " No[o]ne\tVladimir Minenko",
+      "pos3": " Resolut1on\tRoman Fominok",
+      "pos4": " Save-\tVitalie Melnic",
+      "pos5": " Solo\tAlexei Berezin\t",
+      "coach": "boolk\tAnatoly Ivanov"
+    }
+  ,
+
+    {
+      "title": "Natus Vincere",
+      "image" : "https://liquipedia.net/commons/images/thumb/d/d6/Natus_Vincere.png/900px-Natus_Vincere.png",
+      "url": "https://liquipedia.net/dota2/Natus_Vincere",
+      "description": "Natus Vincere (Latin for \"born to win\"), often abbreviated as Na`Vi",
+      "pos1": " Crystallize\tVladislav Krystanek\t",
+      "pos2": " MagicaL\tIdan Vardanian",
+      "pos3": " 9pasha\tPavel Khvastunov",
+      "pos4": " Zayac\tBakyt Emilzhanov\t",
+      "pos5": " illias\tIlyas Ganeev",
+      "coach": "Mag\tAndrey Chipenko"
+    }
+  ,
+
+    {
+      "title": "Chaos Esports Club",
+      "image" : "https://liquipedia.net/commons/images/thumb/5/52/Chaos_Esports_Club_logo_2019_acid.png/900px-Chaos_Esports_Club_logo_2019_acid.png",
+      "url": "https://liquipedia.net/dota2/Chaos_Esports_Club",
+      "description": "Chaos Esports Club, formerly known as Digital Chaos",
+      "pos1": " YawaR\tYawar Hassan\t",
+      "pos2": " CCnC\tQuinn Callahan\t",
+      "pos3": " DM\tDmitry Dorokhin\t\t",
+      "pos4": " MSS\tArif Anwar",
+      "pos5": " SVG\tAvery Silverman",
+      "coach": "No Coach"
+    }
+  ,
+
+    {
+      "title": "Evil Geniuses",
+      "image" : "https://liquipedia.net/commons/images/thumb/a/a8/EG_Logo_Stacked.png/900px-EG_Logo_Stacked.png",
+      "url": "https://liquipedia.net/dota2/Evil_Geniuses",
+      "description": "Evil Geniuses, often abbreviated as EG, is one of the oldest North American professional gaming organisations.",
+      "pos1": " Arteezy\tArtour Babaev",
+      "pos2": " Abed\tAbed Yusop",
+      "pos3": " RAMZES666\tRoman Kushnarev\t",
+      "pos4": " Cr1t-\tAndreas Nielsen",
+      "pos5": " Fly\tTal Aizik",
+      "coach": "BuLba\tKanishka Sosale"
+    }
+  ,
+
+    {
+      "title": "paiN Gaming",
+      "image" : "https://liquipedia.net/commons/images/thumb/c/c2/PaiN_Gaming_2017_notext.png/900px-PaiN_Gaming_2017_notext.png",
+      "url": "https://liquipedia.net/dota2/PaiN_Gaming",
+      "description": "paiN Gaming is a Brazilian multi-gaming organization. They currently field teams in Dota 2.",
+      "pos1": " hFn\tWilliam Medeiros",
+      "pos2": " Mandy\tLeonardo Viana",
+      "pos3": " Kingrd\tDanylo Nascimento\t",
+      "pos4": " dunha1\tKaue Camuci",
+      "pos5": " 444\tAnderson Santos",
+      "coach": "No Coach"
+    }
+  ,
+
+    {
+      "title": "beastcoast",
+      "image" : "https://liquipedia.net/commons/images/thumb/f/f8/Beastcoast_2019.png/900px-Beastcoast_2019.png",
+      "url": "https://liquipedia.net/dota2/Beastcoast",
+      "description": "beastcoast is a North American esports organization, founded in July of 2017. They started a bootcamp in Brazil for their Dota 2 team during the DPC 2019-2020.",
+      "pos1": " K1\tHéctor Antonio Rodríguez\t",
+      "pos2": " Chris Luck\tJean Pierre Gonzales",
+      "pos3": " Wisper\tAdrián Céspedes Dobles\t",
+      "pos4": " Scofield\tElvis De la Cruz Peña",
+      "pos5": " Stinger\tSteven Vargas",
+      "coach": "No Coach"
+    }
+  ]
+}
