@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "864902405172",
+    "firebase_url": "https://wesaveproject.firebaseio.com",
+    "project_id": "wesaveproject",
+    "storage_bucket": "wesaveproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864902405172:android:eea11296198c3305e3fe61",
+        "android_client_info": {
+          "package_name": "com.example.wesave_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864902405172-1f5m961qtcf1aoaf8hj9r568pt6o36gs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wesave_project",
+            "certificate_hash": "f365b48a4ee2e14c052a1218f91d5364784f1943"
+          }
+        },
+        {
+          "client_id": "864902405172-mj62o8eqpd054vetak9iibnpok2gb1n8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfGd9Mw_qNIdkVnLlSsjQPIJeqfVokycE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864902405172-mj62o8eqpd054vetak9iibnpok2gb1n8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
