@@ -11,5 +11,6 @@
     <color name="sign_out_color">#636161</color>
     <color name="grey01">#464646</color>
     <color name="Head_color">#9B9B9B</color>
+    <color name="Body_color">#9B9B9B</color>
 
 </resources>

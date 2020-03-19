@@ -1,6 +1,7 @@
 package com.example.wesave_project
 
 import android.content.Context
+import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -12,8 +13,8 @@ import androidx.fragment.app.FragmentActivity
 import androidx.fragment.app.FragmentTransaction
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import kotlinx.android.synthetic.main.recy_layout.view.*
 import org.json.JSONArray
-import org.json.JSONObject
 
 class MyRecyclerAdapter(fragmentActivity: FragmentActivity, val dataSource: JSONArray) : RecyclerView.Adapter<MyRecyclerAdapter.Holder>() {
 
@@ -50,6 +51,19 @@ class MyRecyclerAdapter(fragmentActivity: FragmentActivity, val dataSource: JSON
     }
 
     override fun onBindViewHolder(holder: Holder, position: Int) {
+        if (position % 2 == 0) {
+            println("== 0 ")
+            println(position)
+            holder.itemView.setBackgroundResource(R.drawable.artists_list_backgroundcolor2);
+            holder.itemView.tv_name.setTextColor(Color.BLACK)
+            holder.itemView.tv_description.setTextColor(Color.BLACK)
+        } else {
+            println("!= 0 ")
+            println(position)
+            holder.itemView.setBackgroundResource(R.drawable.artists_list_background_alternate2);
+            holder.itemView.tv_name.setTextColor(Color.WHITE)
+            holder.itemView.tv_description.setTextColor(Color.WHITE)
+        }
 
         holder.Holder()
 
