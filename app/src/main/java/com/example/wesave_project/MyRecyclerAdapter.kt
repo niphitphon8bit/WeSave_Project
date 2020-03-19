@@ -13,6 +13,7 @@ import androidx.fragment.app.FragmentTransaction
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import org.json.JSONArray
+import org.json.JSONObject
 
 class MyRecyclerAdapter(fragmentActivity: FragmentActivity, val dataSource: JSONArray) : RecyclerView.Adapter<MyRecyclerAdapter.Holder>() {
 
@@ -64,13 +65,18 @@ class MyRecyclerAdapter(fragmentActivity: FragmentActivity, val dataSource: JSON
             Toast.makeText(thiscontext, holder.titleTextView.text.toString(), Toast.LENGTH_SHORT)
                 .show()
 
-            val head: String = dataSource.getJSONObject(position).getString("title").toString()
-            val body: String =
-                dataSource.getJSONObject(position).getString("description").toString()
-            val img: String = dataSource.getJSONObject(position).getString("image").toString()
 
+            val head = dataSource.getJSONObject(position).getString("title").toString()
+            val body = dataSource.getJSONObject(position).getString("description").toString()
+            val img = dataSource.getJSONObject(position).getString("image").toString()
+            val pos1 = dataSource.getJSONObject(position).getString("pos1").toString()
+            val pos2 = dataSource.getJSONObject(position).getString("pos2").toString()
+            val pos3 = dataSource.getJSONObject(position).getString("pos3").toString()
+            val pos4 = dataSource.getJSONObject(position).getString("pos4").toString()
+            val pos5 = dataSource.getJSONObject(position).getString("pos5").toString()
+            val coach = dataSource.getJSONObject(position).getString("coach").toString()
 
-            val fragment_member_detail = MemberDetail().newInstance(head, body, img)
+        val fragment_member_detail = MemberDetail().newInstance(head,body,img,pos1,pos2,pos3,pos4,pos5,coach)
         val fm = thisActivity.supportFragmentManager
         val transaction: FragmentTransaction = fm.beginTransaction()
         transaction.replace(R.id.layout, fragment_member_detail, "fragment_member_detail")
