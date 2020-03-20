@@ -140,6 +140,11 @@ class authen : Fragment() {
                 val fragment_RecyclerView = Recycler_view()
                 transaction.replace(R.id.show_jason, fragment_RecyclerView,"fragment_RecyclerView")
                 transaction.addToBackStack("fragment_RecyclerView")
+//                transaction.commit()
+
+                val add_data = DataRealtime()
+                transaction.replace(R.id.add_data, add_data,"fragment_DataRealtime")
+                transaction.addToBackStack("fragment_DataRealtime")
                 transaction.commit()
 
             } else {

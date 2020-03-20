@@ -2,13 +2,13 @@ package com.example.wesave_project
 
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
 import com.facebook.login.LoginManager
 
@@ -22,11 +22,13 @@ class profile : Fragment() {
 
     fun newInstance(url: String,name : String): profile {
 
+        val fragment = Fragment()
         val profile = profile()
         val bundle = Bundle()
         bundle.putString("PhotoURL", url)
         bundle.putString("Name", name)
         profile.setArguments(bundle)
+        fragment.setArguments(bundle)
 
         return profile
     }
