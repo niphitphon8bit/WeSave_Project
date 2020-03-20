@@ -18,16 +18,27 @@ class MainActivity : AppCompatActivity() {
         val manager = supportFragmentManager
         val transaction = manager.beginTransaction()
         transaction.replace(R.id.layout, authen,"fragment_authen")
-        transaction.addToBackStack("fragment_authen")
-        transaction.commit()
+//        transaction.addToBackStack("fragment_authen")
+//        transaction.commit()
 
 //
-//        val fragment_RecyclerView = Recycler_view()
-////        val manager = supportFragmentManager
-////        val transaction = manager.beginTransaction()
-//        transaction.replace(R.id.layout, fragment_RecyclerView,"fragment_RecyclerView")
+        val fragment_RecyclerView = Recycler_view()
+//        val manager = supportFragmentManager
+//        val transaction = manager.beginTransaction()
+//        transaction.replace(R.id.show_jason, fragment_RecyclerView,"fragment_RecyclerView")
 //        transaction.addToBackStack("fragment_list_view")
-//        transaction.commit()
+
+
+//        val ShowData = ShowData()
+//        transaction.replace(R.id.show, ShowData,"fragment_ShowData")
+//        transaction.addToBackStack("fragment_ShowData")
+//
+//        val DataRealtime = DataRealtime()
+//        transaction.replace(R.id.add, DataRealtime,"fragment_DataRealtime")
+//        transaction.addToBackStack("fragment_DataRealtime")
+
+        transaction.commit()
+
 
     }
     private fun debugHashKey() {

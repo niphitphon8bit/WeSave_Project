@@ -20,6 +20,7 @@ import com.facebook.login.widget.LoginButton
 import com.google.firebase.auth.FacebookAuthProvider
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
+import com.google.firebase.database.FirebaseDatabase
 
 /**
  * A simple [Fragment] subclass.
@@ -111,11 +112,39 @@ class authen : Fragment() {
 
                 user = firebaseAuth!!.currentUser
 
-                val profile = profile().newInstance(user!!.photoUrl.toString(),user!!.displayName.toString())
+                val mRootRef = FirebaseDatabase.getInstance().getReference()
+//                val mUsersRef = mRootRef.child(user!!.displayName.toString())
+//
+                mRootRef.child(user!!.displayName.toString()).child("Caster").setValue("first Caster")
+                val load_lay_out = load_lay_out()
                 val fm = fragmentManager
                 val transaction : FragmentTransaction = fm!!.beginTransaction()
-                transaction.replace(R.id.layout, profile,"fragment_profile")
+                transaction.replace(R.id.layout, load_lay_out,"main_layout")
+                transaction.addToBackStack("main_layout")
+//                transaction.commit()
+
+
+                val profile = profile().newInstance(user!!.photoUrl.toString(),user!!.displayName.toString())
+////                val fm = fragmentManager
+//                val transaction : FragmentTransaction = fm!!.beginTransaction()
+                transaction.replace(R.id.facebook_layout, profile,"fragment_profile")
                 transaction.addToBackStack("fragment_profile")
+//
+//
+                val ShowData = ShowData()
+                transaction.replace(R.id.showrealtime, ShowData,"fragment_ShowData")
+                transaction.addToBackStack("fragment_ShowData")
+//
+//
+//
+                val fragment_RecyclerView = Recycler_view()
+                transaction.replace(R.id.show_jason, fragment_RecyclerView,"fragment_RecyclerView")
+                transaction.addToBackStack("fragment_RecyclerView")
+//                transaction.commit()
+
+                val add_data = DataRealtime()
+                transaction.replace(R.id.add_data, add_data,"fragment_DataRealtime")
+                transaction.addToBackStack("fragment_DataRealtime")
                 transaction.commit()
 
             } else {
