@@ -94,9 +94,8 @@ class MyRecyclerAdapter(fragmentActivity: FragmentActivity, val dataSource: JSON
         val fm = thisActivity.supportFragmentManager
         val transaction: FragmentTransaction = fm.beginTransaction()
         transaction.replace(R.id.layout, fragment_member_detail, "fragment_member_detail")
-        transaction.addToBackStack("fragment_member_detail")
+        transaction.addToBackStack("main_layout")
         transaction.commit()
-
         }
     }
 
